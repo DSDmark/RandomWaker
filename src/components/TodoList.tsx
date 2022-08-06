@@ -26,8 +26,8 @@ const TodoList: FC<Props> = ({toggleIcons,setIcons}) => {
             </h1>
             <div className="todo_input">
               <input className="" type="text" name="todo_text" value="" />
-              {/* {toggleIcons ?  <i className="icons" onClick={addData}>✏️</i> : <i className="icons" onClick={addData}>➕</i> */}
-              {/* } */}
+              {toggleIcons ?  <i className="icons">✏️</i> : <i className="icons" >➕</i>
+              }
             </div>
             {/* {todoData.map((e)=>{
                     return (
@@ -38,7 +38,7 @@ const TodoList: FC<Props> = ({toggleIcons,setIcons}) => {
                             <i className="list_icons" onClick={()=>todoEdit(e.id)}>✏️</i>
                             <i className="list_icons" onClick={()=>deleteData(e.id)}>❌</i>
                             </div>
-                        </>
+                        </>active
                     )
                 })} */}
             {/* <button className="button" onClick={deletewholeData}><a>remove all</a></button> */}
