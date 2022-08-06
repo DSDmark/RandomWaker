@@ -1,6 +1,10 @@
 import { FC } from "react";
+interface Props{
+    toggleIcons:boolean;
+    setIcons:(active: boolean) => void;
+}
 
-const TodoList: FC = () => {
+const TodoList: FC<Props> = ({toggleIcons,setIcons}) => {
   return (
     <>
       <main>
