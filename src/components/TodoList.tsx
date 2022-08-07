@@ -1,10 +1,10 @@
 import { FC } from "react";
 interface Props{
     toggleIcons:boolean;
-    setIcons:(active: boolean) => void;
+    hendleInput:{ inputData: string; setInput: React.Dispatch<React.SetStateAction<string>> };
 }
-
-const TodoList: FC<Props> = ({toggleIcons,setIcons}) => {
+const TodoList: FC<Props> = ({toggleIcons,hendleInput}) => {
+    const {inputData,setInput} = hendleInput;
   return (
     <>
       <main>
@@ -25,8 +25,8 @@ const TodoList: FC<Props> = ({toggleIcons,setIcons}) => {
               </span>
             </h1>
             <div className="todo_input">
-              <input className="" type="text" name="todo_text" value="" />
-              {toggleIcons ?  <i className="icons">✏️</i> : <i className="icons" >➕</i>
+              <input className="" type="text" name="todo_text" value={inputData} onChange={(e)=>setInput(e.target.value)} />
+              {toggleIcons ?  <i className="icons" >✏️</i> : <i className="icons">➕</i>
               }
             </div>
             {/* {todoData.map((e)=>{
@@ -38,7 +38,7 @@ const TodoList: FC<Props> = ({toggleIcons,setIcons}) => {
                             <i className="list_icons" onClick={()=>todoEdit(e.id)}>✏️</i>
                             <i className="list_icons" onClick={()=>deleteData(e.id)}>❌</i>
                             </div>
-                        </>active
+                        </>
                     )
                 })} */}
             {/* <button className="button" onClick={deletewholeData}><a>remove all</a></button> */}

@@ -4,9 +4,10 @@ import "./styles.css";
 
 const App: FC = () => {
   const [toggleIcons, setIcons] = useState<boolean>(true);
+  const [inputData, setInput] = useState<string>("");
   return (
     <>
-      <TodoList toggleIcons={toggleIcons} setIcons={setIcons} />
+      <TodoList toggleIcons={toggleIcons} hendleInput={{inputData,setInput}}/>
     </>
   );
 };
