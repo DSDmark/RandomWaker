@@ -4,12 +4,13 @@ const CH = canvas.height = 400;
 const CW = canvas.width = 400;
 canvas.style.background = "black";
 
+
+
 const RandomWaker = {
 	position: { x: CW / 2, y: CH / 2 },
-	color: "white",
 	size: 4,
-	draw() {
-		ctx.fillStyle = this.color;
+	draw(colorG) {
+		ctx.fillStyle = colorG;
 		ctx.beginPath();
 		ctx.arc(this.position.x, this.position.y, this.size, 0, 2 * Math.PI);
 		ctx.closePath();
@@ -21,26 +22,27 @@ const RandomWaker = {
 		switch (r) {
 			case 0:
 				this.position.x -= 4;
-				this.color = "red";
+
 				break;
 			case 1:
 				this.position.x += 4;
-				this.color = "green";
+
 				break;
 			case 2:
 				this.position.y -= 4;
-				this.color = "yellow";
+
 				break;
 			case 3:
 				this.position.y += 4;
-				this.color = "gray";
+
 				break;
 		}
 	}
 }
 
 function render() {
-	RandomWaker.draw();
+	let colorG = `rgba(${Math.round(Math.random() * 255)},${Math.round(Math.random() * 255)},${Math.round(Math.random() * 255)},${(Math.random()).toFixed(1)})`;
+	RandomWaker.draw(colorG);
 	RandomWaker.update();
 }
 
