@@ -1,0 +1,4 @@
+redirects:
+  - from: /RandomWaker/*
+    to: https://github.com/DSDmark/TodoList/:splat
+    status: 301
