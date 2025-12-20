@@ -17,11 +17,11 @@
 
 ## Purpose
 
-> This game lets you know how logical works in the game.
+> A “random walker” refers to an entity that moves step by step in random directions. These are common in visual simulations, generative art, and statistical models.
 
 ---
 
-### How to play
+### How to use
 
 1. Click on green **Clone or download** button and choose Download ZIP.
 2. Find the downloaded zipped file on your pc and extract it.
@@ -34,7 +34,7 @@ Once you are done playing you can close the tab in your browser to quit the game
 
 ---
 
-## Try Out TicTacToc Demo
+## Try Out RandomWaker Demo
 
 <a href="https://dsdmark.github.io/RandomWaker/" alt="TicTacToc Demo">RandomWaker Demo</a>
 
@@ -47,3 +47,4 @@ Once you are done playing you can close the tab in your browser to quit the game
 > If you have any issues with the project feel free to let me know!
 
 ---
+
