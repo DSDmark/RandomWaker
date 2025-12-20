@@ -40,8 +40,6 @@ Once you are done playing you can close the tab in your browser to quit the game
 
 </div>
 
-### Tic tac toc
-
 </div>
 
 > If you have any issues with the project feel free to let me know!
