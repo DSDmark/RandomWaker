@@ -1,10 +1,10 @@
 <div align="center">
 
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/DSDmark/TicTacToe)
-![GitHub](https://img.shields.io/github/license/DSDmark/TicTacToe)
-![GitHub language count](https://img.shields.io/github/languages/count/DSDmark/TicTacToe)
-![GitHub last commit](https://img.shields.io/github/last-commit/DSDmark/TicTacToe)
-[![Deploy static content to Pages](https://github.com/DSDmark/TicTacToe/actions/workflows/static.yml/badge.svg)](https://github.com/DSDmark/TicTacToe/actions/workflows/static.yml)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/DSDmark/RandomWaker)
+![GitHub](https://img.shields.io/github/license/DSDmark/RandomWaker)
+![GitHub language count](https://img.shields.io/github/languages/count/DSDmark/RandomWaker)
+![GitHub last commit](https://img.shields.io/github/last-commit/DSDmark/RandomWaker)
+[![Deploy static content to Pages](https://github.com/DSDmark/RandomWaker/actions/workflows/static.yml/badge.svg)](https://github.com/DSDmark/RandomWaker/actions/workflows/static.yml)
 
 
 <div>
@@ -47,4 +47,5 @@ Once you are done playing you can close the tab in your browser to quit the game
 > If you have any issues with the project feel free to let me know!
 
 ---
+
 
